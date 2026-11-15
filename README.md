@@ -32,7 +32,7 @@ JWT_SECRET=2b8a24fabc0e6e52a345a036119ac24d22939a973c1d5d259704a48f2b3432fc
 AI_API_KEY=
 AI_BASE_URL=https://api.openai.com/v1
 AI_MODEL=gpt-4o-mini
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=http://localhost:5174
 ```
 
 Start the backend:
@@ -53,7 +53,7 @@ npm install
 npm run dev
 ```
 
-Open the Vite URL, usually http://localhost:5173.
+Open the Vite URL, usually http://localhost:5174.
 
 ## First use
 1. Register a student account from the app.
