@@ -53,7 +53,7 @@ npm install
 npm run dev
 ```
 
-Open the Vite URL, usually http://localhost:5173.
+Open the Vite URL, usually http://localhost:5174.
 
 ## First use
 1. Register a student account from the app.
