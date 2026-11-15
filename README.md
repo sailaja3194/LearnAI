@@ -26,9 +26,9 @@ npm install
 Copy `.env.example` to `.env` and edit the values:
 
 ```env
-PORT=5000
+PORT=5001
 MONGO_URI=mongodb://127.0.0.1:27017/ai_smart_learning
-JWT_SECRET=replace_this_with_a_long_random_secret
+JWT_SECRET=2b8a24fabc0e6e52a345a036119ac24d22939a973c1d5d259704a48f2b3432fc
 AI_API_KEY=
 AI_BASE_URL=https://api.openai.com/v1
 AI_MODEL=gpt-4o-mini
