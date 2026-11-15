@@ -32,7 +32,7 @@ JWT_SECRET=replace_this_with_a_long_random_secret
 AI_API_KEY=
 AI_BASE_URL=https://api.openai.com/v1
 AI_MODEL=gpt-4o-mini
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=http://localhost:5174
 ```
 
 Start the backend:
