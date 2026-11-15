@@ -77,10 +77,14 @@ The backend sends requests to an OpenAI-compatible `/chat/completions` endpoint 
 - `POST /api/performance/quiz-result` (JWT)
 
 ## Troubleshooting
-- `MongoDB connection failed`: start MongoDB locally or set a valid Atlas `MONGO_URI`.
-- `JWT_SECRET is missing`: copy `.env.example` to `.env` and set a secret.
-- Port in use: change `PORT` in backend `.env`.
-- Frontend cannot reach API: make sure backend is running on port 5000.
-- Live AI unavailable: check API key, model access, and base URL. Demo responses are used when no key is configured.
+
+- **MongoDB Error:** Ensure MongoDB is running and `MONGO_URI` is correctly configured.
+- **Authentication Error:** Set a valid `JWT_SECRET` in `backend/.env`.
+- **Port Conflict:** Ensure the backend port (5001) is available.
+- **API Connection Error:** Verify the backend URL and CORS configuration.
+- **AI Service Error:** Check your API key, model access, and billing configuration.
+- **Missing Dependencies:** Run `npm install` in both frontend and backend folders.
+
+**Security Note:** Never commit `.env` files, API keys, or sensitive credentials to GitHub.
 
 This is an educational project starter. Before production deployment, add stricter validation, rate limiting, logging, HTTPS, secure deployment secrets, and appropriate privacy controls.
